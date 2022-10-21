@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+/*colores
+*/
+:root{
+    --white:hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+body{
+    background-color: var(--Lightgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Outfit",sans-serif;
+}
+.contenedor-principal{
+    width: 320px;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.contenedor-principal > img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.contenedor-principal h3{
+    padding: 19px;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:var(--Darkblue);
+
+}
+.contenedor-principal p{
+    color: var(--Grayishblue);
+    text-align: center;
+    padding-bottom:2rem;
+    font-family: "Outfit",sans-serif;
+}
+
